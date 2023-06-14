@@ -1,0 +1,23 @@
+h1 {
+    font-weight: lighter;
+    font-style: italic;
+  }
+
+
+  body{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding: 2rem;
+
+  }
+
+  .dark{
+    background-image: linear-gradient(to bottom right, black, 80%, teal);
+    background-repeat: no-repeat;
+    color: Teal;
+    padding: 7rem;
+  }
+
